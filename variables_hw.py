@@ -3,18 +3,18 @@ str = "Hello world"
 print(type(str))
 print(id(str))
 str +=  " from twuaiq!"
-print(id(str))
+print((str))# delete the id 
 
-print("observations: \n")
+print("observations: \n The new Sentence will be Hello world from twuaiq ")
+
 
 # ---
 list = [1,2,3]
 print(type(list))
 print(id(list))
 list[0] = 5
-print(id(list))
-
-print("observations: \n")
+print((list)) # delete the "id" to print the list after the index 0 changed
+print("observations: \n The index [0] in the list will change to 5 instied of 1")
 
 
 # ---
@@ -24,17 +24,15 @@ print(id(my_dict))
 print(my_dict["Age"])
 my_dict["Age"] = 19
 print(my_dict["Age"])
-print(id(my_dict))
+print((my_dict))
 
-print("observations: \n")
+print("observations: \n The age value will change to 19 instead of 43")
 
 # --- 
 tuple = 1,2,3
 print(type(tuple))
 print(id(tuple))
 
-print("observations: \n")
+print("observations: \n The tuple is immutable so we can not chane the values after the tuple created  ")
 
-# # Uncomment the below code and run it, can u explain what happened?
-# tuple[0] = 2
-#print("observations: \n")
+
