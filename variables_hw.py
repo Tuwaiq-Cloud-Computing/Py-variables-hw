@@ -36,5 +36,7 @@ print(id(tuple))
 print("observations: \n")
 
 # # Uncomment the below code and run it, can u explain what happened?
-# tuple[0] = 2
-#print("observations: \n")
+tuple[0] = 2
+print("observations: \n")
+
+# TypeError , because tuples are immutable and we use it when we want to store a list of values that wont be editing.
