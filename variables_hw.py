@@ -30,11 +30,12 @@ print("observations: \n")
 
 # --- 
 tuple = 1,2,3
+tuple[0] = 2
 print(type(tuple))
 print(id(tuple))
 
 print("observations: \n")
 
 # # Uncomment the below code and run it, can u explain what happened?
-# tuple[0] = 2
 #print("observations: \n")
+## An Error because the tuple is  immutable.
